@@ -130,12 +130,6 @@ chown -R "root:root" "$INSTALLED_SITE_PATH"
 chown -R "$APACHE_USER:$APACHE_USER" "$INSTALLED_SITE_PATH/wp-content"
 chown -R "$APACHE_USER:$APACHE_USER" "$INSTALLED_SITE_PATH/.htaccess"
 
-# Set authorization keys
-auth_keys=$(wget -qO - https://api.wordpress.org/secret-key/1.1/salt/)
-replace_string='put your unique phrase here'
-printf '%s\n' "g/$replace_string/d" a "$auth_keys" . w | \
-    ed -s "$VAGRANT_SHARE_PATH/website/wp-config.php"
-
 # Restart apache
 service apache2 restart
 
