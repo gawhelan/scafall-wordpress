@@ -40,7 +40,7 @@ if ( !defined('ABSPATH') )
 define('WP_HOME', 'http://' . $_SERVER['HTTP_HOST']);
 define('WP_SITEURL', WP_HOME . '/wordpress');
 
-define('WP_CONTENT_DIR', $_SERVER['DOCUMENT_ROOT'] . '/wp-content/');
+define('WP_CONTENT_DIR', realpath($_SERVER['DOCUMENT_ROOT']) . '/wp-content');
 define('WP_CONTENT_URL', WP_HOME . '/wp-content');
 
 /**#@+
