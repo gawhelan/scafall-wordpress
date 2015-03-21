@@ -1,14 +1,14 @@
 {
   "name": "scafall-wordpress",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A WordPress generator for scafall.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository" : {
-    "type" : "git",
-    "url" : "http://github.com/gawhelan/scafall-wordpress.git"
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/gawhelan/scafall-wordpress.git"
   },
   "keywords": [
     "scafall-generator",
