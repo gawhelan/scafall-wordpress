@@ -10,3 +10,6 @@ Thumbs.db
 
 # temporary files
 *.tmp
+
+# Vagrant
+.vagrant/
