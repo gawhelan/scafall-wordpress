@@ -1,7 +1,9 @@
 module.exports = {
     staticFiles: [
-        {cwd: 'content', src: '*'},
-        {cwd: 'content', src: '.*'},
+        {cwd: 'content', src: 'Vagrantfile'},
+        {cwd: 'content', src: 'gitignore', dest: '.gitignore'},
+        {cwd: 'content', src: 'vm-config'},
+        {cwd: 'content', src: 'website'},
     ],
     templateFiles: [
         {cwd: 'content', src: 'Vagrantfile'},
