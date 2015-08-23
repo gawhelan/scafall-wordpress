@@ -10,10 +10,10 @@ instructions on installing `scafall`.
 
 ## Installation
 
-Install the generator globally.
+Install the generator using `scafall`.
 
 ```
-$ npm install -g scafall-wordpress
+$ scafall install wordpress
 ```
 
 ## Usage

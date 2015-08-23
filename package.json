@@ -17,6 +17,5 @@
   ],
   "author": "Graham Whelan <gawhelan@gmail.com>",
   "license": "ISC",
-  "dependencies": {},
-  "preferGlobal": true
+  "dependencies": {}
 }
